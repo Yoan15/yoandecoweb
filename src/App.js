@@ -1,11 +1,17 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import Home from './components/home/Home';
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-      </header>
+      <BrowserRouter>
+        <Navbar/>
+      </BrowserRouter>
+        <Home/>
+        <Footer/>
     </div>
   );
 }
