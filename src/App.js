@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar/>
-        <div className="row">
+        <div className="row col-12">
         <div className="col-lg-6 col-md-12">
           <Switch>
             <Route 
@@ -30,9 +30,9 @@ function App() {
         </div>
       </div>
       </BrowserRouter>
-      
       <Footer/>
     </div>
+    
   );
 }
 
